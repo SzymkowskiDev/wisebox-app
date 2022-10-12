@@ -25,6 +25,7 @@ Sth
 ### How to run locally?
 
 npm install
+
 npm run dev
 
 ### How to access on the web?
