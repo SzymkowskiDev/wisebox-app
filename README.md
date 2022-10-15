@@ -14,7 +14,6 @@ It communicates with the [wisebox-api](https://github.com/SzymkowskiDev/wisebox-
 
 - Frontend framework: [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 - State management system: [redux-toolkit](https://redux-toolkit.js.org/rtk-query/overview)
-- Description 3 [Name 3](http://markdown.github.io)
 
 ## 📂 Directory Structure
 
