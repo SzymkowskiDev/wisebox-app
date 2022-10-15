@@ -10,10 +10,10 @@ It communicates with the [wisebox-api](https://github.com/SzymkowskiDev/wisebox-
 - The kanban board [WiseBox Project](https://github.com/users/SzymkowskiDev/projects/7/views/1)
 - The REST API [wisebox-api](https://github.com/SzymkowskiDev/wisebox-api)
 
-## 🎓 Learning Materials
+## 🎓 Documentation
 
-- Description 1 [Name 1](http://markdown.github.io)
-- Description 2 [Name 2](http://markdown.github.io)
+- Frontend framework: [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+- State management system: [redux-toolkit](https://redux-toolkit.js.org/rtk-query/overview)
 - Description 3 [Name 3](http://markdown.github.io)
 
 ## 📂 Directory Structure
