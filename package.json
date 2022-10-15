@@ -8,7 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "prod": "echo \"npm run dev\"",
-    "homepage": "http://szymkowskidev.github.io/wisebox-app",
+    "homepage": "https://szymkowskidev.github.io/wisebox-app",
     "predeploy": "npm run dev",
     "deploy": "git push origin `git subtree split —prefix dist master`:gh-pages —force"
   },
