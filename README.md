@@ -24,9 +24,9 @@ Sth
 
 ### How to run locally?
 
-npm install
+``npm install``
 
-npm run dev
+``npm run dev``
 
 ### How to access on the web?
 
