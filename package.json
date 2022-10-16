@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "prod": "echo \"npm run dev\"",
     "predeploy": "npm run dev",
-    "deploy": "gh-pages -d build"
+    "deploy": "git push origin `git subtree split --prefix dist master`:gh-pages --force"
   },
   "dependencies": {
     "react": "^18.2.0",
