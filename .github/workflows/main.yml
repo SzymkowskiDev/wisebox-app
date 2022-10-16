@@ -1,27 +1,30 @@
-# This script deploys your website automatically
-name: CI
-
-# Only trigger this script when you push to the master branch
+name: Publish
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
+      - main
 
-# Specify the tasks to run when this script gets triggered
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    # Download our master branch
+    strategy:
+      matrix:
+        node-version: [16.x]
+
     steps:
-    - uses: actions/checkout@v2
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
 
-
-    # Run our deployment command
-    - name: Deploying the static website to gh-pages
-      run:  | 
-        npm ci
-        npm run build
-       
-
-
-
+      - name: Install and Build 🔧
+        run: |
+          yarn install
+          yarn run build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: packages/frontEnd/build # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
