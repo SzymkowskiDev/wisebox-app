@@ -9,6 +9,7 @@ It communicates with the [wisebox-api](https://github.com/SzymkowskiDev/wisebox-
 - The top level repo [WiseBox](https://github.com/SzymkowskiDev/WiseBox)
 - The kanban board [WiseBox Project](https://github.com/users/SzymkowskiDev/projects/7/views/1)
 - The REST API [wisebox-api](https://github.com/SzymkowskiDev/wisebox-api)
+- Frontend App online [https://szymkowskidev.github.io/wisebox-app/](https://szymkowskidev.github.io/wisebox-app/)
 
 ## 🎓 Documentation
 
