@@ -14,9 +14,10 @@ jobs:
     # Download our master branch
     steps:
     - uses: actions/checkout@v2
+    - run: npm ci
+    - run: npm run build --if-present
 
     # Run our deployment command
     - name: Deploying the static website to gh-pages
-    - run: npm ci
-    - run: npm run build --if-present
+
     - run: npm run deploy
