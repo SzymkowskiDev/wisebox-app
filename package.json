@@ -11,6 +11,7 @@
     "postinstall": "node ./node_modules/husky/lib/bin install",
     "predeploy": "npm run dev",
     "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
     "react": "^18.2.0",
