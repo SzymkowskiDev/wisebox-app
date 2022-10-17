@@ -14,7 +14,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> ELO
+          Edit <code>src/App.tsx</code> ELOooooooo
         </p>
       </div>
       <p className="read-the-docs">
