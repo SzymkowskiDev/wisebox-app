@@ -1,19 +1,30 @@
-image: node:16.5.0
-pages:
-  stage: deploy
-  cache:
-    key:
-      files:
-        - package-lock.json
-      prefix: npm
-    paths:
-      - node_modules/
-  script:
-    - npm install
-    - npm run build
-    - cp -a dist/. public/
-  artifacts:
-    paths:
-      - public
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+name: Publish
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout :bellhop:
+        uses: actions/checkout@v2.3.1
+
+      - name: Install and Build :wrench:
+        run: |
+          npm install
+          npm run build
+      - name: Deploy :rocket:
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: /build # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
