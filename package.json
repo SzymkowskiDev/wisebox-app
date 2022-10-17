@@ -10,8 +10,7 @@
     "preview": "vite preview",
     "prod": "echo \"npm run dev\"",
     "postinstall": "node ./node_modules/husky/lib/bin install",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run dev"
   },
   "dependencies": {
     "react": "^18.2.0",
