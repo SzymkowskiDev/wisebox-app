@@ -25,13 +25,15 @@ Sth
 
 ### How to run locally?
 
-``npm install``
+`npm install`
 
-``npm run dev``
+`npm run dev`
+
+Open http://127.0.0.1:5173/ with your browser to see the result.
 
 ### How to access on the web?
 
-Open http://127.0.0.1:5173/ with your browser to see the result.
+https://szymkowskidev.github.io/wisebox-app/
 
 ## 📄 License
 
