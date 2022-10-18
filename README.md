@@ -1,42 +1,70 @@
-# WiseBox App
+# Getting Started with Create React App
 
-This repo contains a ready-to-deploy code for the frontend web app of the WiseBox project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It communicates with the [wisebox-api](https://github.com/SzymkowskiDev/wisebox-api).
+## Available Scripts
 
-## 🔗 Related Projects
+In the project directory, you can run:
 
-- The top level repo [WiseBox](https://github.com/SzymkowskiDev/WiseBox)
-- The kanban board [WiseBox Project](https://github.com/users/SzymkowskiDev/projects/7/views/1)
-- The REST API [wisebox-api](https://github.com/SzymkowskiDev/wisebox-api)
-- Frontend App online [https://szymkowskidev.github.io/wisebox-app/](https://szymkowskidev.github.io/wisebox-app/)
+### `npm start`
 
-## 🎓 Documentation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Frontend framework: [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
-- State management system: [redux-toolkit](https://redux-toolkit.js.org/rtk-query/overview)
-- Navigation: [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 📂 Directory Structure
+### `npm test`
 
-Sth
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 🚀 How to run
+### `npm run build`
 
-### How to run locally?
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`npm install`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-`npm run dev`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Open http://127.0.0.1:5173/ with your browser to see the result.
+### `npm run eject`
 
-### How to access on the web?
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-https://szymkowskidev.github.io/wisebox-app/
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 📄 License
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-[MIT License](https://choosealicense.com/licenses/mit/) ©️ 2019-2020 [Kamil Szymkowski](https://github.com/SzymkowskiDev "Get in touch!")
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-[![](https://img.shields.io/badge/license-MIT-green?style=plastic)](https://choosealicense.com/licenses/mit/)
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
