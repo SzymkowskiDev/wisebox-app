@@ -1,0 +1,31 @@
+.tipsPadding {
+  margin-top: 40px;
+}
+
+.circleOverflow {
+  overflow: hidden;
+}
+
+.card-title {
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.overlaysRT {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+  transform: translate(-100%, -50%);
+}
+.overlaysLD {
+  position: absolute;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: red;
+  transform: translate(140%, 50%);
+}
