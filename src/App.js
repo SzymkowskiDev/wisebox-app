@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <MainLayout>
         <HelloWorld />
+        <HelloWorld />
       </MainLayout>
     </div>
   );
