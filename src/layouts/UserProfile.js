@@ -4,7 +4,7 @@ export const UserProfile = ({ user }) => {
       <div>
         <img className="img-fluid" src={user.icon} alt="" />
       </div>
-      <div className="d-flex flex-column align-items-start mx-3">
+      <div className="d-flex flex-column align-items-start mx-2 mx-xxl-3">
         <p className="type-4 mb-1">{user.name}</p>
         <p className="mb-0 type-5 text--ink ">{user.mail}</p>
       </div>
