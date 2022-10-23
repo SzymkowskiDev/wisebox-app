@@ -17,9 +17,6 @@ It communicates with the [wisebox-api](https://github.com/SzymkowskiDev/wisebox-
 - State management system: [redux-toolkit](https://redux-toolkit.js.org/rtk-query/overview)
 - Navigation: [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 
-## 📂 Directory Structure
-
-Sth
 
 ## 🚀 How to run
 
@@ -33,7 +30,6 @@ Open http://localhost:3000/ with your browser to see the result.
 
 ### How to access on the web?
 
-(doesnt work)
 https://szymkowskidev.github.io/wisebox-app/
 
 ## 📄 License
