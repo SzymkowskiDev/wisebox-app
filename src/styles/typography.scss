@@ -36,6 +36,15 @@
     font-size: 14px;
     line-height: 17px;
   }
+
+  &-5-ink {
+    font-family: "Barlow Condensed";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--smoke);
+  }
 }
 
 .header {
@@ -76,6 +85,14 @@
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+  }
+  &-4-ink {
+    font-family: "IBM Plex Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--smoke);
   }
 }
 
