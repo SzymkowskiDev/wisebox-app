@@ -1,28 +1,20 @@
 import React from "react";
+import "../../../styles/typography.scss";
+
 
 const LogingForm = () => {
   return (
     <>
-      <div class='mb-3'>
-        <label for='formGroupExampleInput' class='form-label'>
-          Example label
-        </label>
+      <div className='container d-flex flex-column align-items-center  '>
         <input
-          type='text'
-          class='form-control'
-          id='formGroupExampleInput'
-          placeholder='Example input placeholder'
+          type='email'
+          placeholder='Enter Your Email'
+          className='border w-50 m-4 p-2 rounded-5 txt-1'
         />
-      </div>
-      <div class='mb-3'>
-        <label for='formGroupExampleInput2' class='form-label'>
-          Another label
-        </label>
         <input
-          type='text'
-          class='form-control'
-          id='formGroupExampleInput2'
-          placeholder='Another input placeholder'
+          type='password'
+          placeholder='Enter Your Password'
+          className='border w-50 p-2 rounded-5 txt-1'
         />
       </div>
     </>
