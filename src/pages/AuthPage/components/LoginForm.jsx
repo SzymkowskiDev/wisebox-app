@@ -4,7 +4,7 @@ import "../../../styles/AuthPage.scss";
 const LogingForm = () => {
   return (
     <>
-      <div className='w-100 d-flex flex-column align-items-center'>
+      <form className='w-100 d-flex flex-column align-items-center'>
         <input
           type='email'
           placeholder='Enter Your Email'
@@ -15,7 +15,7 @@ const LogingForm = () => {
           placeholder='Enter Your Password'
           className='border w-50 mt-3 py-3 px-4 rounded-5 type-3 auth--input'
         />
-      </div>
+      </form>
     </>
   );
 };
