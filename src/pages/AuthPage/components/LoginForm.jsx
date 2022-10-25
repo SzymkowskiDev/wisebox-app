@@ -16,6 +16,9 @@ const LogingForm = () => {
           className='border w-50 mt-3 py-3 px-4 rounded-5 type-3 auth--input'
         />
       </form>
+      <button className='w-50 py-3 px-4 rounded-5 type-3 m-4 auth--btn'>
+        Log In
+      </button>
     </>
   );
 };

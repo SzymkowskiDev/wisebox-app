@@ -34,9 +34,6 @@ const AuthPage = () => {
             <img src={logo} alt='wisebox' />
             <span className='header-2'>Manage your stock the way you want</span>
             {isLogin ? <LogingForm /> : <RegisteryForm />}
-            <button className='w-50 py-3 px-4 rounded-5 type-3 m-4 auth--btn'>
-              Log In
-            </button>
           </div>
         </div>
       </div>
