@@ -1,4 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans+Condensed:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans+Condensed:wght@600;700&display=swap');
+
+.text {
+  &--ink {
+    color: var(--smoke)
+  }
+
+  &--icon {
+    font-size: 36px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 25px;
+    }
+  }
+}
 
 .type {
   &-1 {
@@ -7,76 +21,114 @@
     font-weight: 600;
     font-size: 44px;
     line-height: 53px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 31px;
+    }
   }
+  
   &-2 {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 34px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 20px;
+    }
   }
+
   &-3 {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 26px;
     line-height: 31px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 18px;
+    }
   }
+
   &-4 {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 26px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 16px;
+    }
   }
+
   &-5 {
     font-family: "Barlow Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
+    
+    @media only screen and (max-width: 1399px) {
+      font-size: 10px;
+    }
   }
+
 }
 
 .header {
   &-1 {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Sans Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 42px;
     line-height: 55px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 30px;
+    }
   }
+
   &-2 {
     font-family: "IBM Plex Sans Condensed";
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 36px;
-  }
 
-  &-2-ink {
-    font-family: "IBM Plex Sans Condensed";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 36px;
-    color: var(--smoke);
+    @media only screen and (max-width: 1399px) {
+      font-size: 20px;
+    }
   }
 
   &-3 {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Sans Condensed";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 34px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
   }
+
   &-4 {
-    font-family: "IBM Plex Mono";
+    font-family: "IBM Plex Sans Condensed";
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 18px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 10px;
+      line-height: 10px;
+    }
   }
+
+
 }
 
 .txt {
@@ -86,6 +138,10 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 17px;
+    }
   }
   &-2 {
     font-family: "IBM Plex Sans Condensed";
@@ -93,6 +149,10 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 29px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 15px;
+    }
   }
 
   &-3 {
@@ -101,6 +161,10 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
+
+    @media only screen and (max-width: 1399px) {
+      font-size: 12px;
+    }
   }
 }
 

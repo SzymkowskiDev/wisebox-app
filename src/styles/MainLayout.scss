@@ -1,10 +1,20 @@
-.card {
-  background: #78c2ff;
+.layout {
+  &--nav {
+    height: 100vh;
+    position: fixed;
+    box-shadow: 0px 4px 6px rgba(170, 170, 170, 0.25);
+    right: 0;
+
+    &:first-child {
+      left: 0;
+    }
+  }
+
+  &--content {
+      background: var(--cloud);
+      
+      min-height: 100vh;
+  }
+
 }
 
-.logo-header {
-  padding: 52px 21px 8px 20px;
-}
-.container-fluid {
-  margin: 25px 20.5px 0px 20.5px;
-}

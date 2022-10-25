@@ -1,0 +1,63 @@
+.pannel {
+  border: none;
+
+  &--icon {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transform: translate(-50%, -30%);
+    border: white solid 12px;
+    padding-top: 7px;
+
+    @media only screen and (max-width: 1399px) {
+      height: 45px;
+      width: 45px;
+      padding-top: 1px;
+      border: white solid 5px;
+      transform: translate(-50%, -20%);
+    }
+    
+  }
+
+  &--overlay {
+    overflow: hidden;
+    
+    &_index {
+      position: absolute;
+      z-index: 1;
+    }
+
+    &_circle {
+      position: relative;
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+      background: linear-gradient(
+        52.48deg,
+        #ffffff 0%,
+        rgba(0, 0, 0, 0) 87.81%
+      );
+      display: inline-block;
+      transform: translate(150%, 50%);
+      
+
+      &:first-child {
+        transform: translate(-90%, -50%);
+        background: linear-gradient(
+        142.48deg,
+        #ffffff 0%,
+        rgba(0, 0, 0, 0) 87.81%);  
+      }
+
+      @media only screen and (max-width: 1399px) {
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+}
+
+
+
+
