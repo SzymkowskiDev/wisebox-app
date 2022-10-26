@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import logo from "./../assets/logo.png";
 import "./../styles/MainLayout.scss";
 import { TipsCard } from "../shared/TipsCard";
