@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import logo from "./../assets/logo.png";
 import "./../styles/MainLayout.scss";
 import { TipsCard } from "../shared/TipsCard";
@@ -11,7 +11,7 @@ import { Users } from "./Users.js";
 import { StockhouseCard } from "./StockhouseCard";
 import { Stockhouses } from "./Stockhouses";
 
-const MainLayout = () => {
+const MainLayout = ({ children }) => {
   return (
     <div className="container-fluid px-3">
       <div className="row">
@@ -46,7 +46,7 @@ const MainLayout = () => {
             <TipsCard tips={Tips.layoutleft} />
           </div>
         </div>
-        <div className="col-8 offset-2 layout--content"></div>
+        <div className="col-8 offset-2 layout--content">{children}</div>
         <div className="col-2 layout--nav d-flex flex-column justify-content-between py-2">
           <div className="px-xxl-2">
             <UserProfile user={Users.first} />
