@@ -46,7 +46,7 @@ const MainLayout = ({ children }) => {
             <TipsCard tips={Tips.layoutleft} />
           </div>
         </div>
-        <div className="col-8 offset-2 layout--content">{children}</div>
+        <div className="col-8 offset-2 layout--content px-5">{children}</div>
         <div className="col-2 layout--nav d-flex flex-column justify-content-between py-2">
           <div className="px-xxl-2">
             <UserProfile user={Users.first} />
